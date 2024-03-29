@@ -1,0 +1,488 @@
+body{
+    margin-bottom: 40px;
+    background-color: rgba(255, 228, 196, 0.596);
+}
+
+
+#heading-id{
+    position: relative;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+}
+
+#heading-id:hover{
+    transform: scale(1.05);
+    transition: ease 0.5s;
+}
+
+
+#contact_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#img-contact{
+    position: relative;
+    height: 60vh;
+    width: 28vw;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-top: 24px;
+    margin-left: 40px;
+}
+
+#img-contact:hover{
+
+    transform: scale(1.03);
+    transition: ease 0.9s;
+}
+
+#form_div{
+    position: relative;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+}
+
+.heading_contact{
+    font-family: cursive;
+}
+
+
+.input_contact{
+    border: none;
+    background-color: rgba(251, 255, 17, 0.37);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.input_contact:hover{
+    transform: scale(1.025);
+    transition: ease 0.5s;
+}
+
+#btn-id{
+    color: black;
+    background: rgb(194, 197, 2);
+    border: solid rgba(0,0,0,0.1);
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: bold;
+    width: 30%!important;
+    padding: 5px 0px 5px 0px;
+    margin-top: 20px;
+}
+
+#btn-id:hover{
+    color: #fff;
+    border-radius: 10px;
+    transition: ease 0.5s;
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:425px){
+
+    body{
+        padding-bottom: 40px;
+        background-color: rgba(255, 228, 196, 0.596);
+    }
+    
+    
+    #heading-id{
+        margin-top: 0px;
+        position: relative;
+        text-align: center;
+        font-size: 5vw;
+        font-weight: bold;
+        text-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+    }
+    
+    #heading-id:hover{
+        transform: scale(1.05);
+        transition: ease 0.5s;
+    }
+    
+    
+    #contact_div{
+        width: 100%!important;
+        display: flex!important;
+        flex-direction: column!important;
+        align-items: center; 
+
+    }
+    
+    #img-contact{
+        position: relative;
+        height: 60vw;
+        width: 70vw;
+        cursor: pointer;
+        border-radius: 40px;
+
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    
+    #img-contact:hover{
+        transform: scale(1.05);
+        transition: ease 0.9s;
+    }
+    
+    #form_div{
+        width: 80%;
+        padding: 10px;
+    }
+    
+    .heading_contact{
+        font-size: 10px!important;
+    }
+    
+    .input_contact{
+        border: none;
+        background-color: rgba(251, 255, 17, 0.37);
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+    
+    .input_contact:hover{
+        transform: scale(1.025);
+        transition: ease 0.5s;
+    }
+    
+    #btn-id{
+        color: black;
+        background: rgb(194, 197, 2);
+        border: solid rgba(0,0,0,0.1);
+        border-radius: 10px;
+        font-family: cursive;
+        font-size: 10px;
+        font-weight: bold;
+        width: 50%;
+        padding: 7px 0px 7px 0px;
+        margin-top: 20px;
+    
+    
+    }
+    
+    #btn-id:hover{
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(194, 197, 2);
+        background-color: rgb(0,0,0);
+        border: rgb(152, 155, 2);
+        border: solid;
+        border-radius: 10px;
+        padding: 7px 0px 7px 0px;
+    
+        transition:cubic-bezier(0.075, 0.82, 0.165, 1) 1.5s;
+    }
+    
+    
+}
+
+@media screen and (min-width:425px) and (max-width:576px){
+
+    body{
+        padding-bottom: 40px;
+        background-color: rgba(255, 228, 196, 0.596);
+    }
+    
+    
+    #heading-id{
+        margin-top: 0px;
+        position: relative;
+        text-align: center;
+        font-size: 5vw;
+        font-weight: bold;
+        text-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+    }
+    
+    #heading-id:hover{
+        transform: scale(1.05);
+        transition: ease 0.5s;
+    }
+    
+    
+    #contact_div{
+        width: 100%!important;
+        display: flex!important;
+        flex-direction: column!important;
+        align-items: center; 
+
+    }
+    
+    #img-contact{
+        position: relative;
+        height: 60vw;
+        width: 70vw;
+        cursor: pointer;
+        border-radius: 40px;
+
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    
+    #img-contact:hover{
+        transform: scale(1.05);
+        transition: ease 0.9s;
+    }
+    
+    #form_div{
+        width: 80%;
+        padding: 10px;
+    }
+    
+    .heading_contact{
+        font-size: 10px!important;
+    }
+    
+    .input_contact{
+        border: none;
+        background-color: rgba(251, 255, 17, 0.37);
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+    
+    .input_contact:hover{
+        transform: scale(1.025);
+        transition: ease 0.5s;
+    }
+    
+    #btn-id{
+        color: black;
+        background: rgb(194, 197, 2);
+        border: solid rgba(0,0,0,0.1);
+        border-radius: 10px;
+        font-family: cursive;
+        font-size: 10px;
+        font-weight: bold;
+        width: 50%;
+        padding: 7px 0px 7px 0px;
+        margin-top: 20px;
+    
+    
+    }
+    
+    #btn-id:hover{
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(194, 197, 2);
+        background-color: rgb(0,0,0);
+        border: rgb(152, 155, 2);
+        border: solid;
+        border-radius: 10px;
+        padding: 7px 0px 7px 0px;
+    
+        transition:cubic-bezier(0.075, 0.82, 0.165, 1) 1.5s;
+    }
+    
+    
+}
+
+@media screen and (min-width:576px) and (max-width:768px){
+
+    body{
+        padding-bottom: 40px;
+        background-color: rgba(255, 228, 196, 0.596);
+    }
+    
+    
+    #heading-id{
+        margin-top: 0px;
+        position: relative;
+        text-align: center;
+        font-size: 5vw;
+        font-weight: bold;
+        text-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+    }
+    
+    #heading-id:hover{
+        transform: scale(1.05);
+        transition: ease 0.5s;
+    }
+    
+    
+    #contact_div{
+        width: 100%!important;
+        display: flex!important;
+        flex-direction: row!important;
+        justify-content: space-around;
+        align-items: center; 
+        padding: 0px!important;
+    }
+    
+    #img-contact{
+        position: relative;
+        height: 40vw;
+        width: 40vw;
+        cursor: pointer;
+        border-radius: 40px;
+        float: left;
+
+        margin: 0px 10px 0px 20px;
+        /* margin-left: 20px; */
+    }
+    
+    #img-contact:hover{
+        transform: scale(1.05);
+        transition: ease 0.9s;
+    }
+    
+    #form_div{
+        position: relative!important;
+        width: 40%;
+    }
+    
+    .heading_contact{
+        font-size: 15px!important;
+    }
+    
+    .input_contact{
+        border: none;
+        background-color: rgba(251, 255, 17, 0.37);
+        padding: 12px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    
+    .input_contact:hover{
+        transform: scale(1.025);
+        transition: ease 0.5s;
+    }
+    
+    #btn-id{
+        color: black;
+        background: rgb(194, 197, 2);
+        border: solid rgba(0,0,0,0.1);
+        border-radius: 10px;
+        font-family: cursive;
+        font-size: 15px!important;
+        font-weight: bold;
+        width: 40%!important;
+        padding: 12px 5px 12px 5px!important;
+        margin-top: 20px;
+    }
+    
+    #btn-id:hover{
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(194, 197, 2);
+        background-color: rgb(0,0,0);
+        border: rgb(152, 155, 2);
+        border: solid;
+        border-radius: 10px;
+        padding: 7px 0px 7px 0px;
+    
+        transition:cubic-bezier(0.075, 0.82, 0.165, 1) 1.5s;
+    }
+    
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+
+    body{
+        padding-bottom: 40px;
+        background-color: rgba(255, 228, 196, 0.596);
+    }
+    
+    
+    #heading-id{
+        margin-top: 2cm!important;
+        position: relative;
+        text-align: center;
+        font-size: 5vw;
+        font-weight: bold;
+        text-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+    }
+    
+    #heading-id:hover{
+        transform: scale(1.05);
+        transition: ease 0.5s;
+    }
+    
+    
+    #contact_div{
+        margin-top: 3cm!important;
+        width: 100%!important;
+        display: flex!important;
+        flex-direction: row!important;
+        justify-content: space-around!important;
+        align-items: center; 
+        padding: 0px!important;
+    }
+    
+    #img-contact{
+        position: relative;
+        height: 40vw;
+        width: 40vw;
+        cursor: pointer;
+        border-radius: 40px;
+        float: left;
+
+        margin: 0px 10px 0px 20px;
+        /* margin-left: 20px; */
+    }
+    
+    #img-contact:hover{
+        transform: scale(1.05);
+        transition: ease 0.9s;
+    }
+    
+    #form_div{
+        position: relative!important;
+        width: 40%;
+    }
+    
+    .heading_contact{
+        font-size: 15px!important;
+    }
+    
+    .input_contact{
+        border: none;
+        background-color: rgba(251, 255, 17, 0.37);
+        padding: 12px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    
+    .input_contact:hover{
+        transform: scale(1.025);
+        transition: ease 0.5s;
+    }
+    
+    #btn-id{
+        color: black;
+        background: rgb(194, 197, 2);
+        border: solid rgba(0,0,0,0.1);
+        border-radius: 10px;
+        font-family: cursive;
+        font-size: 15px!important;
+        font-weight: bold;
+        width: 40%!important;
+        padding: 12px 5px 12px 5px!important;
+        margin-top: 20px;
+    }
+    
+    #btn-id:hover{
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(194, 197, 2);
+        background-color: rgb(0,0,0);
+        border: rgb(152, 155, 2);
+        border: solid;
+        border-radius: 10px;
+        padding: 7px 0px 7px 0px;
+    
+        transition:cubic-bezier(0.075, 0.82, 0.165, 1) 1.5s;
+    }
+    
+    
+}

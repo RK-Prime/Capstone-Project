@@ -1,0 +1,478 @@
+body{
+    background-image : url('https://images.unsplash.com/photo-1608739872119-f78feab7f976?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#maindiv{
+    color: white;
+    text-align: center;
+    padding: 20vw;
+    background-color: rgba(0,0,0,0.7);
+}
+
+#maindiv-h1{
+    font-family: Brush Script MT;
+    font-size: 8vw;
+    text-shadow: 1px 1px 3px #fff;
+}
+
+#maindiv-p{
+    letter-spacing: 1px;
+    font-size: 2vw;
+}
+
+#featured-div{
+    text-align: center;
+    background-color: lightgrey;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    align-items: center;
+}
+
+#featured-h1{
+    font-family: cursive;
+    color: black;
+    text-shadow: 6px 5px 6px rgba(0,0,0,0.6);
+    font-size: 4.5vw;
+    margin: 40px 0px 50px 0px;
+}
+
+
+.glider-contain{
+    height: 11cm;
+    width: auto;
+}
+
+.card{
+    height: 10cm;
+    position: relative;
+    width: 9%!important;
+    top: 50%;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.card:hover{
+    height: 15cm;
+    transform: scale(0.98);
+    border: solid 3px rgba(0,0,0,0.4);
+    transition: ease 0.2s;
+}
+
+.card-img-top{
+    height: 5.4cm;
+    width: initial;
+    margin: 0px;
+    border: solid rgba(0,0,0,0.5);
+    border-width:  0px 0px 3px 0px ;
+}
+.card-img-top:hover{
+    /* transform:scale(0.99); */
+    transition: ease 0.1s;
+}
+
+.card-title{
+    font-size: 19px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card-text{
+    font-size: 10px;
+}
+
+.cost-title{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cardbtn{
+    background-color: rgb(194,197,2);
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    bottom:0;
+    margin: 0px;
+}
+
+.cardbtn:hover{
+    color: white;
+    background-color: rgb(172, 175, 2);
+    transition: ease 0.3s;
+}
+
+.glidericon{
+    font-size: 20px;
+}
+
+.gliderbutton{
+    color: rgb(194, 197, 3)!important;
+    background-color: rgb(255, 255, 255)!important;
+    border: solid 3px rgb(194, 197, 3)!important;
+    border-radius: 10px;
+    height: 45px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.gliderbutton:hover{
+    color: white!important;
+    background-color: rgb(216, 219, 1)!important;
+    border: solid 3px white!important;
+    border-radius: 10px;
+
+    transition: ease 0.5s;
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:425px){
+
+    #maindiv{
+        display: flex!important;
+        flex-direction: column!important;
+        padding: 0px!important;
+        height: 8cm!important;
+        margin: 0px!important;
+    }
+
+    #maindiv-h1{
+        font-size: 70px!important;
+        padding: 0px!important;
+        margin-top: 30px!important;
+    }
+    #maindiv-p{
+        font-size: 12px!important;
+        font-family: cursive!important;
+        padding: 2px!important;
+        margin: 0px!important;
+    }
+
+    .featured-div{
+        width: 100%;
+    }
+
+    #featured-h1{
+        font-family: cursive;
+        color: black;
+        text-shadow: 6px 5px 6px rgba(0,0,0,0.6);
+        font-size: 7vw;
+        margin: 20px 0px 40px 0px;
+    }
+
+    .glider-contain{
+        height: 92vw!important;
+        width: 73vw!important;
+    }
+    
+    /* .cards-glider{
+        margin-bottom: 30px!important;
+        overflow: hidden;
+        padding: 0px;
+    } */
+    
+    .card{
+        height: auto;
+        position: relative;
+        width: 56vw!important;
+        top: 50%;
+        margin: 10px;
+        padding: 0px;
+    }
+    
+    .card:hover{
+        /* height: 15cm; */
+        transform: scale(0.98);
+        border: solid 3px rgba(0,0,0,0.4);
+        transition: ease 0.2s;
+    }
+    
+    .card-img-top{
+        height: 40vw;
+        width: 70vw!important;
+        margin: 0px;
+        border: solid rgba(0,0,0,0.5);
+        border-width:  0px 0px 3px 0px ;
+    }
+     #card-img:hover{
+        transition: ease 0.1s;
+    }
+    
+    .card-title{
+        font-size: 3vw!important;
+        font-weight: bold;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .card-text{
+        font-size: 2vw;
+    }
+    
+    .cost-title{
+        font-size: 2vw!important;
+        font-weight: bold;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .cardbtn{
+        font-size: 2.5vw;
+        background-color: rgb(194,197,2);
+        border: none;
+        font-family: sans-serif;
+        font-weight: bold;
+        bottom:0;
+        margin: 0px;
+    }
+    
+    .cardbtn:hover{
+        color: white;
+        background-color: rgb(172, 175, 2);
+        transition: ease 0.3s;
+    }
+
+    .glidericon{
+        font-size: 10px;
+    }
+
+
+    .gliderbutton{
+        color: rgb(194, 197, 3)!important;
+        background-color: rgb(255, 255, 255)!important;
+        border: solid 3px #c2c503!important;
+        border-radius: 7px;
+        height: 25px;
+        width: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .gliderbutton:hover{
+        color: white!important;
+        background-color: rgb(216, 219, 1)!important;
+        border: solid 3px white!important;
+        border-radius: 10px;
+    
+        transition: ease 0.5s;
+    }
+
+}
+
+
+@media screen and (min-width:425px) and (max-width:576px){
+
+    .featured-div{
+        width: 100%;
+    }
+
+    #featured-h1{
+        font-family: cursive;
+        color: black;
+        text-shadow: 6px 5px 6px rgba(0,0,0,0.6);
+        font-size: 7vw;
+        margin: 20px 0px 40px 0px;
+    }
+
+    .glider-contain{
+        height: 73vw!important;
+        width: 85vw!important;
+    }
+    
+    #cards-glider{
+        margin-bottom: 30px!important;
+    }
+    
+    .card{
+        height: auto;
+        position: relative;
+        width: 40vw!important;
+        top: 50%;
+        margin: 10px;
+        padding: 0px;
+    }
+    
+    .card:hover{
+        height: 15cm;
+        transform: scale(0.98);
+        border: solid 3px rgba(0,0,0,0.4);
+        transition: ease 0.2s;
+    }
+    
+    .card-img-top{
+        height: 30vw;
+        margin: 0px;
+        border: solid rgba(0,0,0,0.5);
+        border-width:  0px 0px 3px 0px ;
+    }
+     #card-img:hover{
+        transition: ease 0.1s;
+    }
+    
+    .card-title{
+        font-size: 3vw!important;
+        font-weight: bold;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .card-text{
+        font-size: 2vw;
+    }
+    
+    .cost-title{
+        font-size: 2vw!important;
+        font-weight: bold;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .cardbtn{
+        font-size: 2.5vw;
+        background-color: rgb(194,197,2);
+        border: none;
+        font-family: sans-serif;
+        font-weight: bold;
+        bottom:0;
+        margin: 0px;
+    }
+    
+    .cardbtn:hover{
+        color: white;
+        background-color: rgb(172, 175, 2);
+        transition: ease 0.3s;
+    }
+
+    .glidericon{
+        font-size: 15px;
+    }
+
+
+    .gliderbutton{
+        color: rgb(194, 197, 3)!important;
+        background-color: rgb(255, 255, 255)!important;
+        border: solid 3px #c2c503!important;
+        border-radius: 7px;
+        height: 27px;
+        width: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .gliderbutton:hover{
+        color: white!important;
+        background-color: rgb(216, 219, 1)!important;
+        border: solid 3px white!important;
+        border-radius: 10px;
+    
+        transition: ease 0.5s;
+    }
+
+
+}
+
+
+@media screen and (min-width:575px) and (max-width:768px){
+
+    .featured-div{
+        width: 100%;
+    }
+
+    .glider-contain{
+        height: 58vw!important;
+        width: 80vw!important;
+    }
+    
+    
+    
+    .card{
+        height: auto;
+        position: relative;
+        width: 7%!important;
+        top: 50%;
+        margin: 10px;
+    }
+    
+    .card:hover{
+        height: 15cm;
+        transform: scale(0.98);
+        border: solid 3px rgba(0,0,0,0.4);
+        transition: ease 0.2s;
+    }
+    
+    .card-img-top{
+        height: 30vw;
+        width: initial;
+        margin: 0px;
+        border: solid rgba(0,0,0,0.5);
+        border-width:  0px 0px 3px 0px ;
+    }
+    #card-img:hover{
+        transition: ease 0.1s;
+    }
+    
+    .card-title{
+        font-size: 2vw!important;
+        font-weight: bold;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .card-text{
+        font-size: 1.3vw;
+    }
+    
+    .cost-title{
+        font-size: 1.5vw!important;
+        font-weight: bold;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .cardbtn{
+        font-size: 1.5vw;
+        background-color: rgb(194,197,2);
+        border: none;
+        font-family: sans-serif;
+        font-weight: bold;
+        bottom:0;
+        margin: 0px;
+    }
+    
+    .cardbtn:hover{
+        color: white;
+        background-color: rgb(172, 175, 2);
+        transition: ease 0.3s;
+    }
+
+    .glidericon{
+        font-size: 15px;
+    }
+
+
+    .gliderbutton{
+        color: rgb(194, 197, 3)!important;
+        background-color: rgb(255, 255, 255)!important;
+        border: solid 3px #c2c503!important;
+        border-radius: 7px;
+        height: 30px;
+        width: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .gliderbutton:hover{
+        color: white!important;
+        background-color: rgb(216, 219, 1)!important;
+        border: solid 3px white!important;
+        border-radius: 10px;
+    
+        transition: ease 0.5s;
+    }
+
+
+}
+

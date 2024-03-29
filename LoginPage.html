@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <link href="LoginPage.css" rel="stylesheet">
+    <script src="LoginPage.js"></script>
+</head>
+<body>
+    <h1 id="login-heading" class="heading-main mt-5">
+        Login
+    </h1>
+
+    <form id="login-form" class="container">
+        <label id="email-head" class="head">
+            E-mail:
+        </label>
+        <input id="input-email" class="input-login mt-1" type="text" placeholder="Enter your E-mail" required>
+
+        <label id="password-head" class="head">
+            Password:
+        </label>
+        <input id="input-password" class="input-login mt-1" type="password" placeholder="Enter your Password" required>
+        <div class="container ">
+            <button id="btn-login" class="btn" onclick="form_func()">Login</button>
+        </div>
+    </form>
+</body>
+</html>

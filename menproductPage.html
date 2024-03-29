@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Men-Product-Page</title>
+  
+  <!-- Font awesome icon link -->
+  <script src="https://kit.fontawesome.com/3799f03e8f.js" crossorigin="anonymous"></script>    
+  
+  <!-- bootstrap css link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- productpage css link -->
+  <link rel="stylesheet" href="./productPage.css">
+  
+  <!-- script and css link for header and footer -->
+  <script src="./headerFooter.js"></script>
+  <link rel="stylesheet" href="./headerFooter.css">
+
+
+  <!-- bootstrap js link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+
+  <!-- glider.js css link -->
+  <link rel="stylesheet" href="./glider.min.css">
+
+
+  </head>
+<body>
+  
+  
+<button id="navbarbtn" class="navbar-toggler d-lg-none d-md-none d-sm-none" onclick="toggleFunc()" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <i id="navbaricon-bars" class="fa-solid fa-bars"></i>
+</button>
+
+<!-- Navbar Code Starts -->
+<nav id="navbar" class="navbar navbar-expand collapse d-lg-block d-md-block d-sm-block">
+  <div id="mynavbar">
+    <!-- navbar ul starts -->
+    <ul id='navul' class="navbar-nav">
+      <!-- navbar Home item starts -->
+      <li id="nav-item" class="nav-item">
+        <a id="homeid" class="nav-link " href="HomePage.html" aria-current="page">Home</a>
+      </li>
+      <!-- navbar Home item ends -->
+      <!-- navbar All product item starts -->
+      <li class="nav-item">
+        <a id="allproductid" class="nav-link " href="allproductPage.html">All Product</a>
+      </li>
+      <!-- navbar All product item ends -->
+      <!-- navbar Women dropdown starts -->
+      <li class="nav-item dropdown position-relative">
+        <a id="womenid"class="nav-link  dropdown-toggle" href="" id="navbarDropdownMenuLinkWomen" role='button' data-bs-toggle="dropdown" aria-expanded="false">
+          Women
+        </a>
+        <ul id="dropdown-menu-id" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkWomen">
+          <li><a id="women-item1-id"  class="dropdown-item " href="womenproductPage.html">All</a></li>
+          <li><a id="women-item2-id" class="dropdown-item" href="#">Dresses</a></li>
+          <li><a id="women-item3-id" class="dropdown-item" href="#">Skirts</a></li>
+          <li><a id="women-item4-id" class="dropdown-item" href="#">Pants</a></li>
+        </ul>
+      </li>
+      <!-- navbar Women dropdown ends -->
+      <!-- navbar Men dropdown starts -->
+      <li class="nav-item dropdown">
+          <a id="menid" class="nav-link  dropdown-toggle" href="#" id="navbarDropdownMenuLinkMen" role='button' data-bs-toggle="dropdown" aria-expanded="false">
+            Men
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkMen">
+            <li><a id="men-item1-id" class="dropdown-item " href="menproductPage.html">All</a></li>
+            <li><a id="men-item2-id" class="dropdown-item" href="#">Shirts</a></li>
+            <li><a id="men-item3-id" class="dropdown-item" href="#">Jeans</a></li>
+          </ul>
+      </li>
+      <!-- navbar Men dropdown ends -->
+      <!-- navbar Kids item starts -->
+      <li class="nav-item">
+          <a id="kidsid" class="nav-link " href="kidsproductPage.html">Kids</a>
+      </li>
+      <!-- navbar Kids item ends -->
+      <!-- navbar Contact item starts -->
+    </ul>
+      <div id="contactid">
+          <a class="contact-link nav-link " href="ContactUs.html">Contact</a>
+      </div>
+          <!-- navbar Contact item ends -->
+    
+    <!-- navbar ul ends -->
+  </div>
+</nav>
+<!-- Navbar Code Ends -->
+
+<!-- menproduct-div starts -->
+<div id="menproduct-div" class="container-fluid product-div">
+    <!-- featured-h1 heading -->
+      <h1 class='product-h1'>Men's Products</h1>
+      
+    <!-- product cards carousel starts -->
+    
+      <!-- glider-contain start -->
+      <div class="glider-contain container-sm container-md container-lg">
+    
+        <!-- glider starts -->
+        
+        <div class="glider row-12 h-100 cards-glider">
+        
+          <!--  -->
+          
+          
+        <div   class="card col-2">
+              <img alt="" class="card-img-top d-block w-100" src="https://valintaformens.com/cdn/shop/products/photo_2023-03-27_02-27-21.jpg?v=1681723151">
+              <div id="featured-card" class="card-body">
+                <h6 class="card-title">Virat Kurta</h6>
+                <h6 class="cost-title card-title">$15</h6>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <a href="#" class="cardbtn btn"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+              </div>
+        </div>
+          
+      
+        <div   class="card col-2">
+                <img alt="" class="card-img-top d-block w-100" src="https://5.imimg.com/data5/SELLER/Default/2022/8/BP/HW/GK/129902046/13-2--500x500.jpg">
+                <div id="featured-card" class="card-body">
+                  <h6 class="card-title">Coat Suit</h6>
+                  <h6 class="cost-title card-title">$15</h6>
+                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                  <a href="#" class="cardbtn btn"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+                </div>
+        </div>
+      
+      
+        <div   class="card col-2">
+            <img alt="" id="card-img" class="card-img-top d-block w-100" src="https://cdn.shopify.com/s/files/1/0606/5864/7273/files/TMKBPA2279Black_500x.jpg?v=1686036566">
+            <div id="featured-card" class="card-body">
+              <h6 class="card-title">Wedding Suit</h6>
+              <h6 class="cost-title card-title">$15</h6>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <a href="#" class="cardbtn btn"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+            </div>
+        </div>
+      
+      
+        <div    class="card col-2">
+            <img alt="" id="card-img" class="card-img-top d-block w-100" src="https://i.pinimg.com/736x/e8/10/2e/e8102eb672183c74649c2597b544a2b2.jpg">
+            <div id="featured-card" class="card-body">
+              <h6 class="card-title">Mens Wear</h6>
+              <h6 class="cost-title card-title">$15</h6>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <a href="#" class="cardbtn btn"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+            </div>
+        </div>
+      
+      
+        <div    class="card col-2">
+            <img alt="" id="card-img" class="card-img-top d-block w-100" src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/71a00703e8c14c76aa8471445a9eaf40_9366/Ultrabounce_Shoes_Blue_HP5783_HM1.jpg">
+            <div id="featured-card" class="card-body">
+              <h6 class="card-title">Mens Shoes</h6>
+              <h6 class="cost-title card-title">$15</h6>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <a href="#" class="cardbtn btn"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+            </div>
+        </div>
+      
+      
+        <div    class="card col-2">
+            <img alt="" id="card-img" class="card-img-top d-block w-100" src="https://i.pinimg.com/236x/68/bd/00/68bd009d9bba069b79d7a5c872097507.jpg">
+            <div id="featured-card" class="card-body">
+              <h6 class="card-title">Summer Casual</h6>
+              <h6 class="cost-title card-title">$15</h6>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <a href="#" class="cardbtn btn"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+            </div>
+        </div>
+      
+      
+        <div    class="card col-2">
+            <img alt="" id="card-img" class="card-img-top d-block w-100" src="https://medias.utsavfashion.com/media/catalog/product/cache/1/small_image/295x/040ec09b1e35df139433887a97daa66f/h/a/hand-block-printed-pure-cotton-shirt-in-white-v1-mjp76.jpg">
+            <div id="featured-card" class="card-body">
+              <h6 class="card-title">Shirts</h6>
+              <h6 class="cost-title card-title">$15</h6>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <a href="#" class="cardbtn btn"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+            </div>
+        </div>
+      
+      
+        <div    class="card col-2">
+            <img alt="" id="card-img" class="card-img-top d-block w-100" src="https://www.mumkins.in/cdn/shop/files/boys-suit-bs1169-green-model-image.jpg?v=1685621815&width=1080">
+            <div id="featured-card" class="card-body">
+              <h6 class="card-title">Mens Suit</h6>
+              <h6 class="cost-title card-title">$15</h6>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <a href="#" class="cardbtn btn"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+            </div>
+        </div>
+      
+      
+        <div    class="card col-2">
+            <img alt="" id="card-img" class="card-img-top d-block w-100" src="https://a2fashionstores.com/cdn/shop/products/3c_1378x.png?v=1673449028">
+            <div id="featured-card" class="card-body">
+              <h6 class="card-title">T-shirts</h6>
+              <h6 class="cost-title card-title">$15</h6>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <a href="#" class="cardbtn btn"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+            </div>
+        </div>
+      
+      
+        <div    class="card col-2">
+            <img alt="" id="card-img" class="card-img-top d-block w-100" src="https://assets2.andaazfashion.com/media/catalog/product/cache/1/image/500x750/a12781a7f2ccb3d663f7fd01e1bd2e4e/n/a/navy-blue-silk-mens-kurta-pajama-with-embroidered-jacket-mkpa06613-1.jpg">
+            <div id="featured-card" class="card-body">
+              <h6 class="card-title">Mens Ethnic wear</h6>
+              <h6 class="cost-title card-title">$15</h6>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <a href="#" class="cardbtn btn"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+            </div>
+        </div>
+      
+          <!--  -->
+      
+        </div>
+    
+        <!-- gliider ends -->
+    
+        <button aria-label="Previous" class="gliderbutton glider-prev"><i class="fa-solid fa-arrow-left fa-2xs glidericon"></i></button>
+        <button aria-label="Next" class="gliderbutton glider-next"><i class="fa-solid fa-arrow-right fa-2xs glidericon"></i></button>
+        
+      </div>
+      <!-- glider-contain ends -->
+</div>
+<!-- menproduct-div ends -->
+
+
+<!-- glider.js js link -->
+<script src="glider.min.js"></script>
+<!-- custom glider link -->
+<script src="gliderCustom.js"></script>
+</body>
+</html>

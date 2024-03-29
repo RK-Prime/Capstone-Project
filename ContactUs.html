@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    
+    <!-- Bootstrap Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <!-- Contact us css link -->
+    <link rel="stylesheet" href="./ContactUs.css">
+
+    <title>Contact Us</title>
+
+    <script>
+        function submit_Func(){
+            alert('Your Message has been Submitted\nThank you for your Feedback')
+            setTimeout(()=>location.reload(),1)
+        }
+    </script>
+</head>
+<body>
+    <h1 id="heading-id" class="heading_main m-4 mt-5">Contact Us</h1>
+    <!-- Main div starts -->
+    <div id="contact_div" class="container-fluid col-12">
+        
+        <!-- image link -->
+        <a id="link-img" href="HomePage.html">
+        <img alt="IMG-ABC" id="img-contact" class="container-fluid col-6" src="https://i.pinimg.com/736x/1a/89/c4/1a89c4e54f367f5b94b1df2e6dde334e.jpg">
+        </a>
+        
+
+        <!-- contact form div starts -->
+        <form id="form_div" action="#" class="container col-6 m-4">
+            <h6 id="name-head" class="heading_contact mt-3">Name :</h6>
+            <input type="text" id="name-input" class="container-fluid input_contact" placeholder="Enter your name" required>
+            <h6 id="mail-head" class="heading_contact mt-3">E-mail :</h6>
+            <input type="text" id="mail-input" class="container-fluid input_contact" placeholder="Enter your E-mail" required>
+            <h6 id="msg-head" class="heading_contact mt-3">Message :</h6>
+            <textarea id="msg-input" rows="2" class="container-fluid input_contact" placeholder="Enter your message" required></textarea>
+            <button id="btn-id" class="btn btn-block container-fluid" onclick="submit_Func()">Submit</button>
+        </form>
+
+        <!-- contact form div ends -->
+    </div>
+
+</body>
+</html>

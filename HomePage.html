@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <!-- Font awesome icon link -->
+  <script src="https://kit.fontawesome.com/3799f03e8f.js" crossorigin="anonymous"></script>    
+  
+  <!-- bootstrap css link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Homepage css link -->
+  <link rel="stylesheet" href="./HomePage.css">
+  
+  <!-- script and css link for header and footer -->
+  <script src="./headerFooter.js"></script>
+  <link rel="stylesheet" href="./headerFooter.css">
+
+
+  <!-- bootstrap js link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+
+  <!-- glider.js css link -->
+  <link rel="stylesheet" href="./glider.min.css">
+
+
+
+  </head>
+<body>
+  
+  
+  <button id="navbarbtn" class="navbar-toggler d-lg-none d-md-none d-sm-none" onclick="toggleFunc()" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <i id="navbaricon-bars" class="fa-solid fa-bars"></i>
+    </button>
+
+<!-- Navbar Code Starts -->
+<nav id="navbar" class="navbar navbar-expand collapse d-lg-block d-md-block d-sm-block">
+    <div id="mynavbar">
+      <!-- navbar ul starts -->
+      <ul id='navul' class="navbar-nav">
+        <!-- navbar Home item starts -->
+        <li id="nav-item" class="nav-item">
+          <a id="homeid" class="nav-link " href="HomePage.html" aria-current="page">Home</a>
+        </li>
+        <!-- navbar Home item ends -->
+        <!-- navbar All product item starts -->
+        <li class="nav-item">
+          <a id="allproductid" class="nav-link " href="allproductPage.html">All Product</a>
+        </li>
+        <!-- navbar All product item ends -->
+        <!-- navbar Women dropdown starts -->
+        <li class="nav-item dropdown position-relative">
+          <a id="womenid"class="nav-link  dropdown-toggle" href="" id="navbarDropdownMenuLinkWomen" role='button' data-bs-toggle="dropdown" aria-expanded="false">
+            Women
+          </a>
+          <ul id="dropdown-menu-id" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkWomen">
+            <li><a id="women-item1-id"  class="dropdown-item " href="womenproductPage.html">All</a></li>
+            <li><a id="women-item2-id" class="dropdown-item" href="#">Dresses</a></li>
+            <li><a id="women-item3-id" class="dropdown-item" href="#">Skirts</a></li>
+            <li><a id="women-item4-id" class="dropdown-item" href="#">Pants</a></li>
+          </ul>
+        </li>
+        <!-- navbar Women dropdown ends -->
+        <!-- navbar Men dropdown starts -->
+        <li class="nav-item dropdown">
+            <a id="menid" class="nav-link  dropdown-toggle" href="#" id="navbarDropdownMenuLinkMen" role='button' data-bs-toggle="dropdown" aria-expanded="false">
+              Men
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkMen">
+              <li><a id="men-item1-id" class="dropdown-item " href="menproductPage.html">All</a></li>
+              <li><a id="men-item2-id" class="dropdown-item" href="#">Shirts</a></li>
+              <li><a id="men-item3-id" class="dropdown-item" href="#">Jeans</a></li>
+            </ul>
+        </li>
+        <!-- navbar Men dropdown ends -->
+        <!-- navbar Kids item starts -->
+        <li class="nav-item">
+            <a id="kidsid" class="nav-link " href="kidsproductPage.html">Kids</a>
+        </li>
+        <!-- navbar Kids item ends -->
+        <!-- navbar Contact item starts -->
+      </ul>
+        <div id="contactid">
+            <a class="contact-link nav-link " href="ContactUs.html">Contact</a>
+        </div>
+            <!-- navbar Contact item ends -->
+      
+      <!-- navbar ul ends -->
+    </div>
+</nav>
+<!-- Navbar Code Ends -->
+  
+<!-- maindiv starts -->
+  <div id="maindiv" class="maindivs">
+    <h1 id="maindiv-h1">
+      Ecommerce
+    </h1>
+    <p id="maindiv-p">Clothes that talk on behalf of you. Something for every occassion.</p>
+    </div>
+<!-- maindiv ends -->
+
+<!-- featured-div starts -->
+<div id="featured-div" class="container-fluid product-div">
+<!-- featured-h1 heading -->
+  <h1 id='featured-h1' class="product-h1">Featured Products</h1>
+  
+<!-- product cards carousel starts -->
+
+  <!-- glider-contain start -->
+  <div class="glider-contain container-sm container-md container-lg">
+
+    <!-- glider starts -->
+    
+    <div class="glider row-12 h-100">
+    
+      <!--  -->
+      
+      
+    <div id="card-1" class="card col-2">
+          <img alt="" class="card-img-top d-block w-100" src="https://hips.hearstapps.com/hmg-prod/images/23wspr-d0570-red-m04-1675261740.jpg">
+          <div id="featured-card" class="card-body">
+            <h6 class="card-title">Red dress</h6>
+            <h6 class="cost-title card-title">$15</h6>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <a href="#" class="cardbtn btn"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+          </div>
+    </div>
+      
+  
+    <div id="card-2" class="card col-2">
+            <img alt="" class="card-img-top d-block w-100" src="https://srkimg.b-cdn.net/images/458/multi-colour-embroidery-work-georgette-kids-lehenga-choli-187141.jpg">
+            <div id="featured-card" class="card-body">
+              <h6 class="card-title">Kids Lehenga</h6>
+              <h6 class="cost-title card-title">$15</h6>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <a href="#" class="cardbtn btn">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Add to cart</a>
+            </div>
+    </div>
+  
+  
+    <div id="card-3" class="card col-2">
+        <img alt="" id="card-img" class="card-img-top d-block w-100" src="https://images-static.nykaa.com/uploads/8e542ae7-68ea-4742-b21f-0b26e5ff96f4.jpg">
+        <div id="featured-card" class="card-body">
+          <h6 class="card-title">Kurtis</h6>
+          <h6 class="cost-title card-title">$15</h6>
+          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <a href="#" class="cardbtn btn"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+        </div>
+    </div>
+  
+  
+    <div id="card-4" class="card col-2">
+        <img alt="" id="card-img" class="card-img-top d-block w-100" src="https://i.pinimg.com/736x/e8/10/2e/e8102eb672183c74649c2597b544a2b2.jpg">
+        <div id="featured-card" class="card-body">
+          <h6 class="card-title">Mens Wear</h6>
+          <h6 class="cost-title card-title">$15</h6>
+          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <a href="#" class="cardbtn btn"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+        </div>
+    </div>
+  
+  
+    <div id="card-5" class="card col-2">
+        <img alt="" id="card-img" class="card-img-top d-block w-100" src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/71a00703e8c14c76aa8471445a9eaf40_9366/Ultrabounce_Shoes_Blue_HP5783_HM1.jpg">
+        <div id="featured-card" class="card-body">
+          <h6 class="card-title">Mens Shoes</h6>
+          <h6 class="cost-title card-title">$15</h6>
+          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <a href="#" class="cardbtn btn"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+        </div>
+    </div>
+  
+  
+    <div id="card-6" class="card col-2">
+        <img alt="" id="card-img" class="card-img-top d-block w-100" src="https://medias.utsavfashion.com/media/catalog/product/cache/1/image/500x/040ec09b1e35df139433887a97daa66f/e/m/embroidered-georgette-punjabi-suit-in-teal-blue-v1-kuf14902.jpg">
+        <div id="featured-card" class="card-body">
+          <h6 class="card-title">Punjabi Suit</h6>
+          <h6 class="cost-title card-title">$15</h6>
+          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <a href="#" class="cardbtn btn"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+        </div>
+    </div>
+  
+  
+    <div id="card-7" class="card col-2">
+        <img alt="" id="card-img" class="card-img-top d-block w-100" src="https://i.pinimg.com/736x/08/2a/62/082a622cb06e8dcfd11e6865fc3fadfb.jpg">
+        <div id="featured-card" class="card-body">
+          <h6 class="card-title">Couple Outfit</h6>
+          <h6 class="cost-title card-title">$15</h6>
+          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <a href="#" class="cardbtn btn"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+        </div>
+    </div>
+  
+  
+    <div id="card-8" class="card col-2">
+        <img alt="" id="card-img" class="card-img-top d-block w-100" src="https://www.mumkins.in/cdn/shop/files/boys-suit-bs1169-green-model-image.jpg?v=1685621815&width=1080">
+        <div id="featured-card" class="card-body">
+          <h6 class="card-title">Boys Suit</h6>
+          <h6 class="cost-title card-title">$15</h6>
+          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <a href="#" class="cardbtn btn"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+        </div>
+    </div>
+  
+  
+    <div id="card-9" class="card col-2">
+        <img alt="" id="card-img" class="card-img-top d-block w-100" src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/15257518/2022/12/9/6c64ae2f-258e-49a8-bf90-9ff1a43d19211670563970914NRByNidhiRathiWomenOffWhiteMojarisFlats1.jpg">
+        <div id="featured-card" class="card-body">
+          <h6 class="card-title">Womens Jutti</h6>
+          <h6 class="cost-title card-title">$15</h6>
+          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <a href="#" class="cardbtn btn"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+        </div>
+    </div>
+  
+  
+    <div id="card-10" class="card col-2">
+        <img alt="" id="card-img" class="card-img-top d-block w-100" src="https://rmkv.com/pub/media/catalog/product/cache/3899b28c59efbdc44b1062cd9d5f8b6b/g/w/gw0017-rjs00770_-thumb.jpg">
+        <div id="featured-card" class="card-body">
+          <h6 class="card-title">Girls Ethnic wear</h6>
+          <h6 class="cost-title card-title">$15</h6>
+          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <a href="#" class="cardbtn btn"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+        </div>
+    </div>
+  
+      <!--  -->
+  
+    </div>
+
+    <!-- gliider ends -->
+
+    <button aria-label="Previous" class="gliderbutton glider-prev"><i class="fa-solid fa-arrow-left fa-2xs glidericon"></i></button>
+    <button aria-label="Next" class="gliderbutton glider-next"><i class="fa-solid fa-arrow-right fa-2xs glidericon"></i></button>
+    
+  </div>
+  <!-- glider-contain ends -->
+</div>
+<!-- featured-div ends -->
+
+
+<!-- glider.js js link -->
+<script src="glider.min.js"></script>
+<!-- custom glider link -->
+<script src="gliderCustom.js"></script>
+</body>
+</html>
